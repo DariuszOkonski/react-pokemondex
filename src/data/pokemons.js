@@ -34,42 +34,42 @@ const pokemons = [{
     type: 'electric',
     experience: 72
   },
-  // {
-  //   id: 172,
-  //   name: 'Jigglypuff',
-  //   type: 'normal',
-  //   experience: 95
-  // },
-  // {
-  //   id: 183,
-  //   name: 'Eevee',
-  //   type: 'water',
-  //   experience: 65
-  // },
-  // {
-  //   id: 199,
-  //   name: 'Swordfish',
-  //   type: 'bug',
-  //   experience: 210
-  // },
-  // {
-  //   id: 210,
-  //   name: 'Turtlefee',
-  //   type: 'flying',
-  //   experience: 83
-  // },
-  // {
-  //   id: 211,
-  //   name: 'Rubbitpuff',
-  //   type: 'poison',
-  //   experience: 176
-  // },
-  // {
-  //   id: 212,
-  //   name: 'Gengareye',
-  //   type: 'water',
-  //   experience: 162
-  // },
+  {
+    id: 172,
+    name: 'Jigglypuff',
+    type: 'normal',
+    experience: 95
+  },
+  {
+    id: 183,
+    name: 'Eevee',
+    type: 'water',
+    experience: 65
+  },
+  {
+    id: 199,
+    name: 'Swordfish',
+    type: 'bug',
+    experience: 210
+  },
+  {
+    id: 210,
+    name: 'Turtlefee',
+    type: 'flying',
+    experience: 83
+  },
+  {
+    id: 211,
+    name: 'Rubbitpuff',
+    type: 'poison',
+    experience: 176
+  },
+  {
+    id: 212,
+    name: 'Gengareye',
+    type: 'water',
+    experience: 162
+  },
 ];
 
 export default pokemons;
