@@ -7,8 +7,8 @@ function App() {
 
   return (
     <div className="App">
-      <Player list={pokemons} />
-      <Player list={pokemons} />
+      <Player list={pokemons} name="Human" exp={110} />
+      <Player list={pokemons} name="Cpu" exp={230} />
     </div>
   );
 }
