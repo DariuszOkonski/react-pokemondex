@@ -1,0 +1,8 @@
+.loading {
+  text-align: center;
+}
+
+.loading img {
+  width: 70%;
+  max-width: 200px;
+}
