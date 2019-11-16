@@ -1,3 +1,25 @@
 .container {
-  background-color: green;
+  /* background-color: grey; */
+  text-align: center;
+}
+
+.header {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+.paragraph {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+@media(min-width: 1025px) {
+  .header {
+    font-size: 2rem;
+  }
+
+  .paragraph {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+  }
 }
