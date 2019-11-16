@@ -1,9 +1,13 @@
 import React from 'react';
+import pokemons from '../data/pokemons';
+import Card from './Card/Card';
 
 function App() {
+  console.log(pokemons)
+
   return (
     <div className="App">
-      <h1>Hello world</h1>
+      <Card name="Pokemon" type="water" exp={63} id={156} />
     </div>
   );
 }
