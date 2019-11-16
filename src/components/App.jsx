@@ -1,15 +1,43 @@
 import React, { Component } from 'react';
+import styles from './App.module.css';
 import PlayGame from './PlayGame/PlayGame';
-
+import Loading from './Loading/Loading';
+import Button from './Button/Button';
 
 class App extends Component {
   state = {
-    isLoading: true,
+    isLoading: false,
+  }
+
+  handleClick = () => {
+    this.setState({
+      isLoading: true,
+    })
+
+    setTimeout(() => {
+      this.setState({
+        isLoading: false
+      })
+    }, (Math.floor(Math.random() * 1000) + 1000));
   }
 
   render() {
     return (
-      <PlayGame pokemons={this.props.pokemons} />
+      <div className={styles.container}>
+
+        {!this.state.isLoading &&
+          <Button handleClick={this.handleClick} />
+        }
+
+        {
+          this.state.isLoading
+            ?
+            <Loading />
+            :
+            <PlayGame pokemons={this.props.pokemons} />
+        }
+
+      </div>
     )
   }
 }
